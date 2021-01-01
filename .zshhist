@@ -1,2 +1,3 @@
 # install app store apps, open xcode
+xcode-select --install
 /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
