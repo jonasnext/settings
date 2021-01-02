@@ -1,3 +1,20 @@
-# install app store apps, open xcode
+open -a app\ store
+open -a xcode
 xcode-select --install
 /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# apple/xcode
+xed untitled.txt
+code untitled.txt
+open -a xcode untitled.playground
+opendiff untitled0.txt untitled1.txt
+hdiutil create -encryption AES-256 -srcfolder apple apple_"$(date +%Y-%m-%d--%H-%M)"
+caffeinate -id
+defaults read -g
+#
+plutil -p /System/Applications/Music.app/Contents/Resources/en.lproj/Localizable.strings | sort -b
+log stream --predicate 'subsystem == "com.apple.coredata"'
+log show --predicate '(subsystem == "com.apple.coredata") && (eventMessage beginswith "")'
+log show --predicate 'process == "next" and eventMessage beginsWith ""'
+xcrun simctl
+xcrun simctl io booted recordVideo "$(date +%Y-%m-%d--%H-%M)".m4v
+#
