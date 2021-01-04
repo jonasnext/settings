@@ -1,7 +1,7 @@
 open -a app\ store
 open -a xcode
 xcode-select --install
-/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # apple/xcode
 xed untitled.txt
 code untitled.txt
