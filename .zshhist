@@ -19,3 +19,4 @@ xcrun simctl
 xcrun simctl io booted recordVideo "$(date +%Y-%m-%d--%H-%M)".m4v
 #
 brew install git hub
+brew install --cask figma
