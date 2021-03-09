@@ -1,3 +1,4 @@
 {
-    "workbench.colorTheme": "GitHub Light"
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.fontFamily": "\"SF Mono\", Monaco, Menlo, Consolas, monospace"
 }
