@@ -1,2 +1,1 @@
-# settings
-settings
+# ![settings](img/logo.svg)
